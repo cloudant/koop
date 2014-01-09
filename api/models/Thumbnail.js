@@ -53,6 +53,8 @@ var Thumbnail = function(){
       mins = merc.forward( [extent.xmin-5, extent.ymin-5] ),
       maxs = merc.forward( [extent.xmax+5, extent.ymax+5] );
 
+    console.log(mins, maxs, json.features[0])
+
     var png = options.dir + options.uniq + '.png';
 
     map.render({
