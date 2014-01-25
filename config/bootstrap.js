@@ -26,5 +26,10 @@ module.exports.bootstrap = function (cb) {
   if ( argv.data_dir  ){
     sails.config.data_dir = argv.data_dir;
   }
+
+  if ( argv.osmdb  ){
+    console.log('Using OSM DB:', argv.osmdb);
+    sails.config.osmdb = argv.osmdb;
+  }
   cb();
 };

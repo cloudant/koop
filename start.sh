@@ -1,1 +1,1 @@
-node app.js --mongo=localhost/koop --data_dir=/usr/local/koop
+node app.js --mongo=localhost/koop --data_dir=/usr/local/koop --osmdb=kooposm1

@@ -21,7 +21,9 @@
     "qs": "~0.6.5",
     "topojson": "~1.4.3",
     "node.extend": "~1.0.8",
-    "nodetiles-core": "0.0.3"
+    "nodetiles-core": "0.0.3",
+    "pg": "~2.11.1",
+    "terraformer-wkt-parser": "~1.0.0"
   },
   "devDependencies": {
     "grunt": "0.4.x",
